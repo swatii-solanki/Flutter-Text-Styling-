@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_simple_text/screens/ImageScreen.dart';
+import 'package:flutter_simple_text/screens/button_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -82,7 +84,9 @@ class HomeScreen extends StatelessWidget {
                           color: Colors.white),
                     ))
                   ],
-                )
+                ),
+                ImageScreen(),
+                ButtonClass()
               ],
             )),
       ),
